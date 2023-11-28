@@ -1,0 +1,14 @@
+{
+  "name": "music-samples-finder",
+  "version": "1.0.0",
+  "description": "A simple Music Samples Finder project",
+  "main": "back/index.js", // Entry point for your backend
+  "scripts": {
+    "start": "node back/index.js" // Script to start your backend
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  }
+}
+

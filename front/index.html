@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Music Samples Finder</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">Music Finder</div>
+        <div class="nav-links">
+            <a href="#" onclick="showLoginForm()">Login</a>
+            <a href="#" onclick="showRegisterForm()">Register</a>
+        </div>
+    </nav>
+
+    <div class="content-container">
+        <div id="loginForm" style="display: none;">
+            <!-- Login form (as before) -->
+        </div>
+
+        <div id="registerForm" style="display: none;">
+            <!-- Registration form (as before) -->
+        </div>
+
+        <div id="landingPage">
+            <h1>Welcome to Music Finder</h1>
+            <p>Discover and explore a world of music samples. Login or register to get started!</p>
+
+	    <h2>Featured Samples</h2>
+    <ul id="sampleList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Music Samples Finder</title>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="login()">Login</button>
+        </form>
+
+        <div class="register-link">
+            <p>Don't have an account? <a href="#" onclick="showRegisterForm()">Register here</a></p>
+        </div>
+
+        <form id="registerForm" style="display: none;">
+            <h2>Register</h2>
+            <label for="newUsername">Username:</label>
+            <input type="text" id="newUsername" name="newUsername" required>
+
+            <label for="newPassword">Password:</label>
+            <input type="password" id="newPassword" name="newPassword" required>
+
+            <button type="button" onclick="register()">Register</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
