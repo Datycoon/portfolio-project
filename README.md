@@ -8,7 +8,7 @@ Welcome to Music Samples Finder, a platform designed to revolutionize the way mu
 - **Final Project Blog Article:** [Read Blog](https://medium.com/@artskillzbusiness/portfolio-project-blog-post-9452ec44791d)
 - **Author(s) LinkedIn:** [Author1 LinkedIn](https://www.linkedin.com/in/salaheddine-el-arousy/)
 
-![Music Samples Finder](https://github.com/Datycoon/Project-Landing-Page/blob/master/ScreenShot%20-%20MUSIC%20SAMPLE%20FINDER%20-%20Bootstrap%20Landing%20Page%20Template%20%20.png)
+![Music Samples Finder](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*lGPPEN977QWcrSGI6Tclhw.png)
 
 ## Installation
 
